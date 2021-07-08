@@ -1,0 +1,10 @@
+version: "3.1"
+services: 
+    bu-ng:
+        build: .
+        ports:
+            - 4201:4200
+    bu-ng-tour-of-heroes:
+        build: .
+        ports:
+            - 4202:4200
